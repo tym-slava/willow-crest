@@ -29,17 +29,35 @@ body, html {
 }
 
 /* Main Styles */
-body {
-	background: #fefefe;
-}
+
 
 h1 {
 	font: 42px 'Playfair Display', serif;
+	margin-bottom: 40px;
 }
 
 p {
 	font: 18px 'Lato', sans-serif;
 	color: #858585;
+	line-height: 34px;
+	margin-bottom: 45px;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	max-width: 1600px;
+	width: 100%;
+	justify-content: center;
+	margin: 100px 80px;
+}
+
+.text {
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+	box-shadow: 0 0 100px rgba(0,0,0,0.2);
+	padding: 120px 100px 120px 100px;
 }
 
 .first-p:before {
@@ -47,11 +65,25 @@ p {
 	font: 110px 'Playfair Display', serif;
 	color: black;
 	float: left;
-	padding: 0 30px;
+	height: 100px;
+	width: 95px;
+	line-height: 0.8;
+	
 }
 
 .bq {
 	color: #858585;
 	font: 24px 'Lato', sans-serif;
 	font-style: italic;
+	margin-bottom: 40px;
 }
+
+.btn {
+	 width: 270px;
+	 height: 70px;
+	 background: white;
+	 border: 2px solid #eaa258;
+	 color: #eaa258;
+	 text-transform: uppercase;
+	 letter-spacing: 10px;
+ }
